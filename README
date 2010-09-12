@@ -1,0 +1,20 @@
+ABOUT
+-----
+
+Swarm is an artifical life experiment that I decided to make after I wasted a
+couple of hours playing [swarmation](http://swarmation.com). I was interested
+in how well automata with only local information would be able to form the 
+patterns. 
+
+Currently, the automata are really stupid-they just take random walks
+until their local neighborhood matches the local neighborhood of some pattern
+position. Soon, however, their decisions will be determined by a genome, and
+they will evolve!
+
+
+RUNNING SWARM
+-------------
+
+Swarm requires the ruby-processing gem. Once you have that installed, just type
+'rp5 run swarm.rb', and hit enter.
+
